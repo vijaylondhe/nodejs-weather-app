@@ -1,6 +1,6 @@
 FROM node AS source 
 RUN mkdir -p /node/weather-app
-ADD src/ /node/weather-app
+ADD src2/ /node/weather-app
 WORKDIR /node/weather-app
 RUN npm install 
 
